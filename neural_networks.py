@@ -199,7 +199,7 @@ def visualize(activation, lr, step_num):
     plt.close()
 
 if __name__ == "__main__":
-    activation = "relu"
+    activation = "tanh"
     lr = 0.2
     step_num = 2000
     visualize(activation, lr, step_num)
